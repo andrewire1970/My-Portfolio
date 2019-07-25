@@ -322,6 +322,7 @@ main#home h1 {
   -ms-grid-column-span: 2;
   grid-area: bio;
   font-size: 1.2rem;
+  padding-top: 4rem;
 }
 
 .job-1 {
@@ -470,8 +471,8 @@ main#home h1 {
   }
   .menu-branding .portrait {
     background: url("../img/work3.jpg");
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
   }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
