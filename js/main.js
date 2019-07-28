@@ -47,12 +47,12 @@ function toggleMenu() {
 
 // ES6 Class
 class TypeWriter {
-  constructor(txtElement, words, wait = 3000) {
+  constructor(txtElement, words, wait = 500) {
     this.txtElement = txtElement;
     this.words = words;
     this.txt = "";
     this.wordIndex = 0;
-    this.wait = parseInt(wait, 10);
+    this.wait = parseInt(wait, 40);
     this.type();
     this.isDeleting = false;
   }
