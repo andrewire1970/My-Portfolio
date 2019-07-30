@@ -394,11 +394,6 @@ main#home h1 {
   height: 60px;
 }
 
-.glider img {
-  max-height: 400px;
-  max-width: 250px;
-}
-
 @media screen and (min-width: 1171px) {
   .projects {
     -ms-grid-columns: (1fr)[4];
@@ -448,8 +443,8 @@ main#home h1 {
   }
   .menu-branding .portrait {
     background: url("../img/work3.jpg");
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
   .about-info {
         grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
@@ -469,6 +464,10 @@ main#home h1 {
   .projects {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+  .job img {
+    max-height: 50%;
+    max-width: 50%;
   }
 }
 /*# sourceMappingURL=main.css.map */

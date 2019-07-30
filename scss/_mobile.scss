@@ -49,8 +49,8 @@
 
     .portrait {
       background: url("../img/work3.jpg");
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
     }
   }
 
@@ -77,5 +77,9 @@
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+  .job img {
+    max-height: 50%;
+    max-width: 50%;
   }
 }
