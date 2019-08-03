@@ -212,7 +212,7 @@ main#home h1 {
 }
 .about-info .bio {
   grid-area: bio;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .about-info .job-1 {
   grid-area: job1;
@@ -373,11 +373,35 @@ img .imgstyle1 {
   margin-right: 200px;
 }
 
+.icons2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.space {
+  padding-top: 3rem;
+  padding-right: 6rem;
+}
+
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh;
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .space {
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .space {
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
