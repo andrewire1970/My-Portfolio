@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "@glidejs/glide": "^3.3.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0"
